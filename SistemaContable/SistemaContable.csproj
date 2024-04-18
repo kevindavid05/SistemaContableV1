@@ -23,4 +23,8 @@
     <ProjectReference Include="..\SistemaContable.Utilidades\SistemaContable.Utilidades.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Views - Copia\" />
+  </ItemGroup>
+
 </Project>
