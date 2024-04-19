@@ -30,12 +30,14 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" data-bs-toogle="dropdown" aria-expanded="false">
-                                Contenido 
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                                Contenido
                             </a>
                             <ul class="dropdown-menu">
-                                <li> <a class="dropdown-item" asp-area="Admin" asp-controller="Cliente" asp-action="Index">Clientes</a></li>
-
+                                <li><a class="dropdown-item" asp-area="Admin" asp-controller="Cliente" asp-action="Index">Cliente</a></li>
+                                <li><a class="dropdown-item" asp-area="Admin" asp-controller="Proveedores" asp-action="Index">Proveedores</a></li>
+                                <li><a class="dropdown-item" asp-area="Admin" asp-controller="Presupuestos" asp-action="Index">Presupuestos</a></li>
+                                <li><a class="dropdown-item" asp-area="Admin" asp-controller="Facturas" asp-action="Upsert">Facturas</a></li>
                             </ul>
                         </li>
 
