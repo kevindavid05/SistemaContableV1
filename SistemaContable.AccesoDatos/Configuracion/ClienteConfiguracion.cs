@@ -17,6 +17,9 @@ namespace SistemaContable.AccesoDatos.Configuracion
             builder.Property(x => x.ClId).IsRequired();
             builder.Property(x => x.Clnombre).IsRequired().HasMaxLength(60);
             builder.Property(x => x.Cldireccion);
+            builder.Property(x => x.Cltelefono);
+            builder.Property(x => x.Clemail);
+            builder.Property(x => x.Clnit);
         }
     }
 }

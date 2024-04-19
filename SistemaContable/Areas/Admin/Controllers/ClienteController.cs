@@ -2,6 +2,7 @@
 using SistemaContable.AccesoDatos.Repositorio.IRepositorio;
 
 namespace SistemaContable.Areas.Admin.Controllers
+{ 
 
 [Area("Admin")]
     public class ClienteController : Controller
